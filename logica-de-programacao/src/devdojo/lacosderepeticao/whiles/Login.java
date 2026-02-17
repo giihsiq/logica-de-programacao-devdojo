@@ -26,10 +26,8 @@ public class Login {
 		System.out.print("Senha: ");
 		String senhaInserida = scanner.nextLine();
 		
-		int i = 0;
 		
 		while (!usuarioInserido.equals(usuario) || !senhaInserida.equals(senha)) {
-			i = i + 1;
 			System.out.println("Acesso Negado.");
 			
 			System.out.print("Usuário: ");
